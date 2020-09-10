@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta name="robts" content="index, follow" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
@@ -14,34 +14,39 @@
 <body>
     <header class="main-head">
 
-        <nav class="menu">
-            <ul>
-                <li>
-                    <a href="#artists"> Artists</a></li>
 
-                <li> <a href="#servicios">Services</a>
+        <div class="contenedor">
 
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="#artists"> Artists</a></li>
 
-                    <li> <a href="#">Media</a></li>
-
-                    <li> <a href="#">Projects</a></li>
-
-                    <li> <a href="#">Contact</a></li>
-
-                </li>
+                    <li> <a href="#servicios">Services</a>
 
 
+                        <li> <a href="#">Media</a></li>
+
+                        <li> <a href="#">Projects</a></li>
+
+                        <li> <a href="#">Contact</a></li>
+
+                    </li>
 
 
-            </ul>
-        </nav>
 
 
+                </ul>
+            </nav>
+        </div>
+        <img src="./resources/img/menu.png" class="menu-icon" alt="menu-icon">
     </header>
 
     <section id="hero">
         <div class="text-box">
-            <h1>B L P <br><span> Big Leaguers Productions</span></h1>
+            <h1>B L P </h1> <br>
+            <h2> Big Leaguers <span>Productions</span></h2>
+
         </div>
         <div class="contenedor-video">
             <video id="videoIntro" poster="poster.JPG" autoplay muted loop>
@@ -50,10 +55,10 @@
         </div>
 
     </section>
-    3
+
     <section id="artists">
         <div class="elevate">
-            <h2>WE ELEVATE YOUR <br> POWER TO CONNECT</h2>
+            <h2 class="We-elevate">WE ELEVATE YOUR <br> POWER TO CONNECT</h2>
         </div>
 
         <div class="artistas">
@@ -95,8 +100,8 @@
 
 
     <section id="servicios">
-        <div class="elevate">
-            <h2>Raise your sound</h2>
+        <div class="raise">
+            <h2 class="raise-yoursound">Raise your sound</h2>
         </div>
         <h1 class="ourServi">Our <br>Services</h1>
         <div class="contenedor-servicios">
@@ -143,13 +148,15 @@
             </div>
         </div>
     </section>
-
+    <!-- 
     <section id="musiq">
         <h2>Musica</h2>
-    </section>
+    </section> -->
 
 
 
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
 
 </html>
