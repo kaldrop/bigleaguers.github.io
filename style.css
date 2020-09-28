@@ -1,47 +1,41 @@
-@font-face {
-    font-family: 'Akira Expanded';
-    src: url(./resources/fonts/Akira\ Expanded\ Demo.otf);
-}
-
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: 'Akira Expanded';
-    scroll-behavior: smooth;
-}
-
-body {
-    /*background-color: #0073ff;
+                        @font-face {
+                            font-family: 'Akira Expanded';
+                            src: url(./resources/fonts/Akira\ Expanded\ Demo.otf);
+                        }
+                        
+                        *,
+                        *::after,
+                        *::before {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: inherit;
+                        }
+                        
+                        html {
+                            font-size: 62.5%;
+                            font-family: 'Akira Expanded';
+                            scroll-behavior: smooth;
+                        }
+                        
+                        body {
+                            /*background-color: #0073ff;
     background: rgb(52, 6, 255);
     background-color: aliceblue;*/
-    background-color: black;
-    box-sizing: border-box;
-    ;
-}
-
-
-/* HEADER */
-
-
-/* NAV */
-
-.main-head {
-    width: 100%;
-    background: black;
-    position: fixed;
-    z-index: 10;
-    height: 8rem;
-}
-
-
-/*.menu {
+                            background-color: black;
+                            box-sizing: border-box;
+                            ;
+                        }
+                        /* HEADER */
+                        /* NAV */
+                        
+                        .main-head {
+                            width: 100%;
+                            background: black;
+                            position: fixed;
+                            z-index: 10;
+                            height: 8rem;
+                        }
+                        /*.menu {
     background: black;
     justify-content: center;
     
@@ -49,35 +43,33 @@ body {
 
 
 }*/
-
-.menu {
-    justify-content: center;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    background: black;
-    width: 100%;
-    align-items: center;
-    padding: 0rem 0 1rem 0px;
-    height: 8rem;
-    position: fixed;
-    z-index: 10;
-}
-
-nav ul li {
-    align-items: center;
-    height: 10rem;
-    display: inline-block;
-    font-family: 'Akira Expanded';
-    list-style: none;
-    font-size: 2.1rem;
-    color: white;
-}
-
-
-/*
+                        
+                        .menu {
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        
+                        nav {
+                            display: flex;
+                            background: black;
+                            width: 100%;
+                            align-items: center;
+                            padding: 0rem 0 1rem 0px;
+                            height: 8rem;
+                            position: fixed;
+                            z-index: 10;
+                        }
+                        
+                        nav ul li {
+                            align-items: center;
+                            height: 10rem;
+                            display: inline-block;
+                            font-family: 'Akira Expanded';
+                            list-style: none;
+                            font-size: 2.1rem;
+                            color: white;
+                        }
+                        /*
 .menu {
     display: flex;
     justify-content: center;
@@ -94,299 +86,288 @@ nav ul li {
     font-size: 2rem;
     color: white;
 }*/
-
-ul a {
-    display: flex;
-    color: rgb(0, 81, 255);
-    cursor: pointer;
-    transition: .2s;
-    text-decoration: none;
-    /*text-decoration: underline;
+                        
+                        ul a {
+                            display: flex;
+                            color: rgb(0, 81, 255);
+                            cursor: pointer;
+                            transition: .2s;
+                            text-decoration: none;
+                            /*text-decoration: underline;
     text-decoration-color: red;*/
-    padding: 50px 0 0 90px;
-}
-
-li a:hover {
-    color: red;
-    cursor: pointer;
-    transition: .2s;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-}
-
-
-/* HERO*/
-
-#hero {
-    padding-top: 8rem;
-    min-height: 95vh;
-}
-
-.text-box h1 {
-    text-align: center;
-    font-family: 'Akira Expanded';
-    font-size: 250px;
-    line-height: 13rem;
-    color: black;
-    color: white;
-    padding-top: 5rem;
-}
-
-.text-box h2 {
-    text-align: center;
-    font-family: 'Akira Expanded';
-    font-size: 3.3rem;
-    line-height: 14rem;
-    color: white;
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-}
-
-h2:hover {
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    transition: .8s;
-}
-
-.contenedor-video {
-    display: flex;
-    align-items: center;
-}
-
-#videoIntro {
-    width: 90%;
-    height: auto;
-    padding-left: 10rem;
-    filter: brightness(1.3);
-}
-
-
-/* Artistas */
-
-.elevate .We-elevate {
-    display: flex;
-    width: 100%;
-    height: 40vh;
-    font-family: 'Akira Expanded';
-    font-size: 9.5rem;
-    background: white;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.artist {
-    text-decoration: none;
-    list-style: none;
-}
-
-.artistas h1 {
-    font-family: 'Akira Expanded';
-    font-size: 8rem;
-    color: white;
-    text-align: start;
-    line-height: 20rem;
-}
-
-
-/*.artistas h1:hover {
+                            padding: 50px 0 0 90px;
+                        }
+                        
+                        li a:hover {
+                            color: red;
+                            cursor: pointer;
+                            transition: .2s;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                        }
+                        /* HERO*/
+                        
+                        #hero {
+                            min-height: 110rem;
+                            padding-top: 9rem;
+                        }
+                        
+                        .text-box h1 {
+                            text-align: center;
+                            font-family: 'Akira Expanded';
+                            font-size: 250px;
+                            line-height: 13rem;
+                            color: black;
+                            color: white;
+                            padding-top: 5rem;
+                        }
+                        
+                        .text-box h2 {
+                            text-align: center;
+                            font-family: 'Akira Expanded';
+                            font-size: 3.3rem;
+                            line-height: 14rem;
+                            color: white;
+                            color: red;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                        }
+                        
+                        h2:hover {
+                            color: red;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            transition: .8s;
+                        }
+                        
+                        .contenedor-video {
+                            width: 100%;
+                            display: flex;
+                            max-height: 70rem;
+                            justify-content: center;
+                        }
+                        
+                        #videoIntro {
+                            width: 100%;
+                            max-height: 70rem;
+                            filter: brightness(1.3);
+                        }
+                        /* Artistas */
+                        
+                        .elevate .We-elevate {
+                            display: flex;
+                            width: 100%;
+                            height: 40rem;
+                            font-family: 'Akira Expanded';
+                            font-size: 9.5rem;
+                            background: white;
+                            color: black;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                        }
+                        
+                        .artist {
+                            text-decoration: none;
+                            list-style: none;
+                        }
+                        
+                        .artistas h1 {
+                            font-family: 'Akira Expanded';
+                            font-size: 8rem;
+                            color: white;
+                            text-align: start;
+                            line-height: 20rem;
+                        }
+                        /*.artistas h1:hover {
     color: red;
     text-decoration: underline;
     text-decoration-color: rgb(0, 81, 255);
     transition: .6s;
 }*/
-
-.banner-artist {
-    height: 68vh;
-    background: linear-gradient(to right bottom, rgba(0, 81, 255, 0.432), rgba(255, 12, 12, 0.514)), url(./resources/img/artistas4.jpg);
-    background-position: center;
-    position: relative;
-    width: 100%;
-    /*background-size: 100% 100%;*/
-    background-size: cover;
-    flex-wrap: wrap;
-}
-
-.banner-artist:hover {
-    background: linear-gradient(to right bottom, rgba(0, 81, 255, 0), rgba(255, 12, 12, 0));
-}
-
-.artistas {
-    justify-content: center;
-}
-
-.banner-artist h2 {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    padding: 28.5rem 0 0 5rem;
-    color: white;
-    font-family: 'Akira Expanded';
-    font-size: 5.7rem;
-}
-
-.banner-artist h2:hover {
-    cursor: pointer;
-    color: red;
-    text-decoration: none;
-    border-bottom: 0.800rem solid rgb(0, 81, 255);
-    transition: .6s;
-    /*text-decoration-color: rgb(0, 81, 255);
+                        
+                        .banner-artist {
+                            height: 68vh;
+                            background: linear-gradient(to right bottom, rgba(0, 81, 255, 0.432), rgba(255, 12, 12, 0.514)), url(./resources/img/artistas4.jpg);
+                            background-position: center;
+                            position: relative;
+                            width: 100%;
+                            /*background-size: 100% 100%;*/
+                            background-size: cover;
+                            flex-wrap: wrap;
+                        }
+                        
+                        .banner-artist:hover {
+                            background: linear-gradient(to right bottom, rgba(0, 81, 255, 0), rgba(255, 12, 12, 0));
+                        }
+                        
+                        .artistas {
+                            justify-content: center;
+                        }
+                        
+                        .banner-artist h2 {
+                            display: flex;
+                            align-content: center;
+                            justify-content: center;
+                            padding: 28.5rem 0 0 5rem;
+                            color: white;
+                            font-family: 'Akira Expanded';
+                            font-size: 5.7rem;
+                        }
+                        
+                        .banner-artist h2:hover {
+                            cursor: pointer;
+                            color: red;
+                            text-decoration: none;
+                            border-bottom: 0.800rem solid rgb(0, 81, 255);
+                            transition: .6s;
+                            /*text-decoration-color: rgb(0, 81, 255);
     text-decoration: underline;*/
-}
-
-
-/* 8 Artistas*/
-
-.ble,
-.with-us {
-    font-size: 6rem;
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    transition: .6s;
-    padding: 13rem 0 10rem 8rem;
-    text-align: center;
-}
-
-.with-us {
-    padding-top: 15rem;
-}
-
-.container-11 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0;
-}
-
-
-/*  
+                        }
+                        /* 8 Artistas*/
+                        
+                        .ble,
+                        .with-us {
+                            font-size: 6rem;
+                            color: red;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            transition: .6s;
+                            padding: 13rem 0 10rem 8rem;
+                            text-align: center;
+                        }
+                        
+                        .with-us {
+                            padding-top: 15rem;
+                        }
+                        
+                        .container-11 {
+                            display: grid;
+                            grid-template-columns: repeat(4, 1fr);
+                            grid-template-rows: repeat(2, 1fr);
+                            gap: 0;
+                        }
+                        /*  
                                                                                                 .container-11 {
                                                                                                     display: grid;
                                                                                                     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
                                                                                                     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
                                                                                                 }*/
-
-.artista {
-    border: 1px solid rgb(0, 81, 255);
-    width: 57rem;
-    transition: transform .5s;
-}
-
-.artista--100 {
-    border: 1px solid rgb(0, 81, 255);
-}
-
-.artista:hover {
-    /*opacity: .85;*/
-    transform: scale(1.1);
-}
-
-.artist-name {
-    margin-top: 23.5rem;
-    text-align: center;
-    color: red;
-    text-shadow: 2px 2px 3px rgb(25, 25, 131);
-    /*color: rgba(255, 0, 0, 0.808);
+                        
+                        .artista {
+                            border: 1px solid rgb(0, 81, 255);
+                            width: 57rem;
+                            transition: transform .5s;
+                        }
+                        
+                        .artista--100 {
+                            border: 1px solid rgb(0, 81, 255);
+                        }
+                        
+                        .artista:hover {
+                            /*opacity: .85;*/
+                            transform: scale(1.1);
+                        }
+                        
+                        .artist-name {
+                            margin-top: 23.5rem;
+                            text-align: center;
+                            color: red;
+                            text-shadow: 2px 2px 3px rgb(25, 25, 131);
+                            /*color: rgba(255, 0, 0, 0.808);
                                                                                                         /*text-shadow: 2px 2px 3px rgb(25, 25, 131);*/
-    font-size: 3.8rem;
-    letter-spacing: .2rem;
-}
-
-.artist-name:hover,
-.link-artist:hover {
-    font-size: 3.7rem;
-    text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
-    /*text-shadow: 2px 2px 6px rgb(25, 25, 131);
+                            font-size: 3.8rem;
+                            letter-spacing: .2rem;
+                        }
+                        
+                        .artist-name:hover,
+                        .link-artist:hover {
+                            font-size: 3.7rem;
+                            text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+                            /*text-shadow: 2px 2px 6px rgb(25, 25, 131);
                                                                                                         text-decoration: underline;
                                                                                                         text-decoration-color: rgb(0, 81, 255);*/
-    cursor: pointer;
-}
-
-.link-artist {
-    text-decoration: none;
-}
-
-.artista--1 {
-    background: url(./resources/img/artistas-8/artista-1.png);
-    height: 48rem;
-    width: 100%;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--2 {
-    background: url(./resources/img/artistas-8/artista-2.png);
-    height: 48rem;
-    width: 100%;
-    margin: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--3 {
-    background: url(./resources/img/artistas-8/artista-3.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--4 {
-    background: url(./resources/img/artistas-8/artista-4.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--5 {
-    background: url(./resources/img/artistas-8/artista-5.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--6 {
-    background: url(./resources/img/artistas-8/artista-6.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--7 {
-    background: url(./resources/img/artistas-8/artista-7.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--8 {
-    background: url(./resources/img/artistas-8/artista-8.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*.container-1 {
+                            cursor: pointer;
+                        }
+                        
+                        .link-artist {
+                            text-decoration: none;
+                        }
+                        
+                        .artista--1 {
+                            background: url(./resources/img/artistas-8/artista-1.png);
+                            height: 48rem;
+                            width: 100%;
+                            margin: 0;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--2 {
+                            background: url(./resources/img/artistas-8/artista-2.png);
+                            height: 48rem;
+                            width: 100%;
+                            margin: 0;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--3 {
+                            background: url(./resources/img/artistas-8/artista-3.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--4 {
+                            background: url(./resources/img/artistas-8/artista-4.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--5 {
+                            background: url(./resources/img/artistas-8/artista-5.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--6 {
+                            background: url(./resources/img/artistas-8/artista-6.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--7 {
+                            background: url(./resources/img/artistas-8/artista-7.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--8 {
+                            background: url(./resources/img/artistas-8/artista-8.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        /*.container-1 {
                                                                                                                                                                                                                                                                                                                     margin: 0 auto;
                                                                                                                                                                                                                                                                                                                     display: flex;
                                                                                                                                                                                                                                                                                                                     flex-wrap: wrap;
@@ -399,625 +380,696 @@ h2:hover {
                                                                                                                                                                                                                                                                                                             grid-template-columns: repeat(4, minmax(133px, min-content));
                                                                                                                                                                                                                                                                                                             grid-template-columns: repeat(4, 1fr);
                                                                                                                                                                                                                                                                                                             grid-template-rows: repeat(2, 1fr);*/
-
-.container-2 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 0;
-}
-
-
-/*.container-2 {
+                        
+                        .container-2 {
+                            display: grid;
+                            grid-template-columns: repeat(4, 1fr);
+                            grid-template-rows: repeat(2, 1fr);
+                            gap: 0;
+                        }
+                        /*.container-2 {
                                                                                                     display: grid;
                                                                                                     grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
                                                                                                     grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
                                                                                                 }*/
-
-.artista--100 {
-    height: 48rem;
-    width: 100%;
-}
-
-.artista--101 {
-    background: url(./resources/img/artistas-15/artista-101.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.badam {
-    color: red;
-    text-shadow: 2px 2px 3px rgb(25, 25, 131);
-}
-
-.artista--102 {
-    background: url(./resources/img/artistas-15/artista-102.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--103 {
-    background: url(./resources/img/artistas-15/artista-103.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--104 {
-    background: url(./resources/img/artistas-15/artista-104.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.kamango {
-    text-shadow: 2px 2px 3px rgb(25, 25, 131);
-}
-
-.artista--105 {
-    background: url(./resources/img/artistas-15/artista-105.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--106 {
-    background: url(./resources/img/artistas-15/artista-106.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--107 {
-    background: url(./resources/img/artistas-15/artista-107.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--108 {
-    background: url(./resources/img/artistas-15/artista-108.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--109 {
-    background: url(./resources/img/artistas-15/artista-109.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--110 {
-    background: url(./resources/img/artistas-15/artista-110.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--111 {
-    background: url(./resources/img/artistas-15/artista-111.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--112 {
-    background: url(./resources/img/artistas-15/artista-112.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--113 {
-    background: url(./resources/img/artistas-15/artista-113.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--114 {
-    background: url(./resources/img/artistas-15/artista-114.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.artista--115 {
-    background: url(./resources/img/artistas-15/artista-115.png);
-    height: 48rem;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/*ARTIST RESPONSIVE*/
-
-@media screen and (max-width: 839px) {
-    .container-11 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .container-11 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 839px) {
-    .container-2 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .container-2 {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-}
-
-
-/* SERVICIOS */
-
-.raise .raise-yoursound {
-    display: flex;
-    width: 100%;
-    height: 40vh;
-    font-family: 'Akira Expanded';
-    font-size: 8rem;
-    background: white;
-    color: black;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-}
-
-.ourServi {
-    font-family: 'Akira Expanded';
-    font-size: 8rem;
-    color: white;
-    text-align: start;
-    line-height: 10rem;
-    padding-top: 7rem;
-}
-
-.artists-h1:hover,
-.ourServi:hover {
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    transition: .6s;
-}
-
-.contenedor-servicios {
-    display: flex;
-    height: 75vh;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    color: white;
-    font-size: 3rem;
-    font-family: 'Akira Expanded';
-}
-
-.main-container {
-    position: relative;
-    width: 110rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 8rem;
-}
-
-.main-container h2 {
-    color: white;
-    font-family: 'Akira Expanded';
-    font-size: 4rem;
-}
-
-.main-container p {
-    color: white;
-}
-
-.card {
-    position: relative;
-    max-width: 600rem;
-    height: 18rem;
-    margin: 3rem 1rem;
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: column;
-    border-color: white;
-    border-style: solid;
-    border-width: .8rem;
-    border-radius: 1%;
-    transition: 0.3s ease-in-out;
-    /* border-color: rgb(0, 81, 255);*/
-}
-
-
-/*.card:hover {
+                        
+                        .artista--100 {
+                            height: 48rem;
+                            width: 100%;
+                        }
+                        
+                        .artista--101 {
+                            background: url(./resources/img/artistas-15/artista-101.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .badam {
+                            color: red;
+                            text-shadow: 2px 2px 3px rgb(25, 25, 131);
+                        }
+                        
+                        .artista--102 {
+                            background: url(./resources/img/artistas-15/artista-102.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--103 {
+                            background: url(./resources/img/artistas-15/artista-103.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--104 {
+                            background: url(./resources/img/artistas-15/artista-104.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .kamango {
+                            text-shadow: 2px 2px 3px rgb(25, 25, 131);
+                        }
+                        
+                        .artista--105 {
+                            background: url(./resources/img/artistas-15/artista-105.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--106 {
+                            background: url(./resources/img/artistas-15/artista-106.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--107 {
+                            background: url(./resources/img/artistas-15/artista-107.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--108 {
+                            background: url(./resources/img/artistas-15/artista-108.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--109 {
+                            background: url(./resources/img/artistas-15/artista-109.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--110 {
+                            background: url(./resources/img/artistas-15/artista-110.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--111 {
+                            background: url(./resources/img/artistas-15/artista-111.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--112 {
+                            background: url(./resources/img/artistas-15/artista-112.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--113 {
+                            background: url(./resources/img/artistas-15/artista-113.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--114 {
+                            background: url(./resources/img/artistas-15/artista-114.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        
+                        .artista--115 {
+                            background: url(./resources/img/artistas-15/artista-115.png);
+                            height: 48rem;
+                            width: 100%;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        /*ARTIST RESPONSIVE*/
+                        
+                        @media screen and (max-width: 839px) {
+                            .container-11 {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-template-rows: repeat(2, 1fr);
+                            }
+                        }
+                        
+                        @media screen and (max-width: 414px) {
+                            .container-11 {
+                                display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                grid-template-rows: repeat(2, 1fr);
+                            }
+                        }
+                        
+                        @media screen and (max-width: 839px) {
+                            .container-2 {
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-template-rows: repeat(2, 1fr);
+                            }
+                        }
+                        
+                        @media screen and (max-width: 414px) {
+                            .container-2 {
+                                display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                grid-template-rows: repeat(2, 1fr);
+                            }
+                        }
+                        /* SERVICIOS */
+                        
+                        .raise .raise-yoursound {
+                            display: flex;
+                            width: 100%;
+                            height: 40rem;
+                            font-family: 'Akira Expanded';
+                            font-size: 8rem;
+                            background: white;
+                            color: black;
+                            align-items: center;
+                            justify-content: center;
+                            text-decoration: none;
+                        }
+                        
+                        .ourServi {
+                            font-family: 'Akira Expanded';
+                            font-size: 8rem;
+                            color: white;
+                            text-align: start;
+                            line-height: 10rem;
+                            padding-top: 7rem;
+                        }
+                        
+                        .artists-h1:hover,
+                        .ourServi:hover {
+                            color: red;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            transition: .6s;
+                        }
+                        
+                        .contenedor-servicios {
+                            display: flex;
+                            height: 75rem;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            color: white;
+                            font-size: 3rem;
+                            font-family: 'Akira Expanded';
+                        }
+                        
+                        .main-container {
+                            position: relative;
+                            width: 100rem;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            padding: 8rem;
+                        }
+                        
+                        .main-container h2 {
+                            color: white;
+                            font-family: 'Akira Expanded';
+                            font-size: 4rem;
+                        }
+                        
+                        .main-container p {
+                            color: white;
+                        }
+                        
+                        .card {
+                            position: relative;
+                            max-width: 600rem;
+                            height: 18rem;
+                            margin: 3rem 1rem;
+                            padding: 2rem 1rem;
+                            display: flex;
+                            flex-direction: column;
+                            border-color: white;
+                            border-style: solid;
+                            border-width: .8rem;
+                            border-radius: 1%;
+                            transition: 0.3s ease-in-out;
+                            /* border-color: rgb(0, 81, 255);*/
+                        }
+                        /*.card:hover {
     background-color: rgb(0, 81, 255);
 }*/
-
-.LearnMore {
-    list-style: none;
-    text-decoration: none;
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    font-size: 2.5rem;
-}
-
-.LearnMore h3 {
-    color: white;
-    font-size: 4rem;
-}
-
-.LearnMore h3:hover {
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    transition: .8s;
-    color: red;
-}
-
-.LearnMore:hover {
-    color: rgba(255, 0, 0, 0.644);
-    text-decoration: underline;
-    text-decoration-color: rgb(0, 81, 255);
-    transition: .8s;
-}
-
-.main-container .card:hover {
-    height: 32rem;
-}
-
-.LearnMore {
-    position: relative;
-    width: 26rem;
-    height: 26rem;
-    top: 1.3rem;
-    left: 2rem;
-    z-index: 1;
-}
-
-
-/*.LearnMore {
+                        
+                        .LearnMore {
+                            list-style: none;
+                            text-decoration: none;
+                            color: red;
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            font-size: 2.5rem;
+                        }
+                        
+                        .LearnMore h3 {
+                            color: white;
+                            font-size: 4rem;
+                        }
+                        
+                        .LearnMore h3:hover {
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            transition: .8s;
+                            color: red;
+                        }
+                        
+                        .LearnMore:hover {
+                            color: rgba(255, 0, 0, 0.644);
+                            text-decoration: underline;
+                            text-decoration-color: rgb(0, 81, 255);
+                            transition: .8s;
+                        }
+                        
+                        .main-container .card:hover {
+                            height: 32rem;
+                        }
+                        
+                        .LearnMore {
+                            position: relative;
+                            width: 26rem;
+                            height: 26rem;
+                            top: 1.3rem;
+                            left: 2rem;
+                            z-index: 1;
+                        }
+                        /*.LearnMore {
     max-width: 100%;
 }*/
-
-.content {
-    position: relative;
-    margin-top: -140px;
-    padding: 10px 15px;
-    text-align: center;
-    color: white;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
-}
-
-.content p {
-    /*font-family: 'NHaasGroteskTXPro-75Bd';
+                        
+                        .content {
+                            position: relative;
+                            margin-top: -140px;
+                            padding: 10px 15px;
+                            text-align: center;
+                            color: white;
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: 0.3s ease-in-out;
+                        }
+                        
+                        .content p {
+                            /*font-family: 'NHaasGroteskTXPro-75Bd';
     font-size: 3.5rem;
     font-family: 'Druk Wide Web';
     font-size: 3rem;*/
-    letter-spacing: .3rem;
-}
-
-.card:hover .content {
-    visibility: visible;
-    opacity: 1;
-    margin-top: -20px;
-    transition-delay: .1s;
-    color: white;
-    text-align: center;
-    justify-content: center;
-}
-
-.card p:hover {
-    background-color: rgb(0, 81, 255);
-    color: black;
-}
-
-.menu-icon,
-.blee,
-.home {
-    display: none;
-}
-
-
-/*RESPONSIVE*/
-
-@media screen and (max-width:1206px) {
-    html {
-        font-size: 45%;
-    }
-    .blee,
-    .home {
-        display: block;
-        margin: auto;
-        font-size: 6rem;
-        color: white;
-        text-decoration: none;
-        padding: 1.5rem 0 0 0rem;
-        text-align: center;
-    }
-    .blee:hover,
-    .home:hover {
-        color: blue;
-        text-decoration-color: red;
-    }
-    .main-head {
-        height: 12rem;
-    }
-    .menu {
-        position: fixed;
-        z-index: 3;
-        height: 55%;
-        top: 8rem;
-        width: 35rem;
-        background: black;
-        /*background: rgba(0, 81, 255, 0.979);*/
-        display: none;
-    }
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-right: 10rem;
-    }
-    .menu ul li a {
-        font-size: 2.5rem;
-        color: white;
-    }
-    .menu ul li a:hover {
-        color: blue;
-        text-decoration: none;
-        transition: .3s;
-    }
-    .menu-icon {
-        position: fixed;
-        display: block;
-        height: 5rem;
-        background: white;
-        z-index: 3;
-        top: 4rem;
-        left: 4rem;
-    }
-    ul a {
-        padding: 30px 0 0 72px;
-    }
-    #hero {
-        min-height: 80vh;
-    }
-    .text-box {
-        padding-top: 10rem;
-        line-height: 3rem;
-    }
-    .text-box h1 {
-        font-size: 25rem;
-    }
-    .text-box h2 {
-        font-size: 5rem;
-    }
-    .tex-box span {
-        font-family: 'Neue Haas Groteske';
-        font-size: .3rem;
-    }
-    .We-elevate {
-        font-size: 4rem;
-    }
-    .banner-artist h2 {
-        padding-top: 40rem;
-    }
-    .main-container {
-        padding-bottom: 50rem;
-    }
-}
-
-@media screen and (max-width:768px) {
-    html {
-        font-size: 30%;
-    }
-    .main-head {
-        height: 11rem;
-    }
-    .menu {
-        position: fixed;
-        z-index: 3;
-        height: 45%;
-        top: 9rem;
-        width: 45rem;
-        background: black;
-        /*background: rgba(0, 81, 255, 0.979);*/
-        display: none;
-    }
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 13rem 7rem 0;
-    }
-    .menu ul li a {
-        font-size: 3rem;
-        color: white;
-        padding-right: 4rem;
-    }
-    ul a {
-        padding: 27px 0 0 55px;
-    }
-    .menu-icon {
-        position: fixed;
-        display: block;
-        height: 5rem;
-        background: white;
-        z-index: 3;
-        top: 5rem;
-    }
-    #hero {
-        height: 30vh;
-        padding-top: 5rem;
-    }
-    .text-box {
-        line-height: 2rem;
-    }
-    .text-box h1 {
-        font-size: 18rem;
-    }
-    .text-box h2 {
-        font-size: 4.5rem;
-    }
-    .contenedor-video {
-        width: 100%;
-        padding-top: 5rem;
-    }
-    #videoIntro {
-        padding-top: 1rem;
-        min-height: 30vh;
-    }
-    .banner-artist {
-        height: 30vh;
-    }
-    .raise .raise-yoursound {
-        height: 25vh;
-    }
-    .banner-artist h2 {
-        padding-top: 25rem;
-    }
-    .main-container .card:hover {
-        height: 40rem;
-    }
-}
-
-@media screen and (max-width:414px) {
-    .blee,
-    .home {
-        display: block;
-        text-decoration: none;
-    }
-    .artist-name {
-        font-size: 5rem;
-    }
-    .contenedor-video {
-        width: 100%;
-        padding-top: 5rem;
-    }
-    #hero {
-        height: 90vh;
-    }
-    #videoIntro {
-        padding-top: 1rem;
-    }
-    .menu {
-        position: fixed;
-        z-index: 3;
-        height: 45%;
-        top: 8rem;
-        width: 45rem;
-        background: black;
-        /*background: rgba(0, 81, 255, 0.979);*/
-        display: none;
-    }
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 0 13rem 7rem 0;
-    }
-    .menu ul li a {
-        font-size: 3rem;
-        color: white;
-        padding-right: 4rem;
-    }
-    ul a {
-        padding: 32px 0 0 82px;
-    }
-    .menu-icon {
-        position: fixed;
-        display: block;
-        height: 5rem;
-        background: white;
-        z-index: 3;
-        top: 4rem;
-    }
-    .We-elevate h2 {
-        font-size: .5rem;
-    }
-    .banner-artist h2 {
-        padding-top: 15rem;
-    }
-}
-
-@media screen and (max-width:375px) {
-    .elevate .We-elevate {
-        font-size: 8.3rem;
-        line-height: 11rem;
-    }
-    .artist-name {
-        font-size: 5rem;
-    }
-    .banner-artist h2 {
-        padding-top: 8rem;
-    }
-}
-
-@media screen and (max-width:320px) {
-    #hero {
-        height: 90vh;
-    }
-    .elevate .We-elevate {
-        font-size: 8rem;
-        line-height: 9.7rem;
-    }
-    .raise .raise-yoursound {
-        height: 28vh;
-        line-height: 10rem;
-    }
-    .banner-artist h2 {
-        padding-top: 5rem;
-    }
-}
+                            letter-spacing: .3rem;
+                        }
+                        
+                        .card:hover .content {
+                            visibility: visible;
+                            opacity: 1;
+                            margin-top: -20px;
+                            transition-delay: .1s;
+                            color: white;
+                            text-align: center;
+                            justify-content: center;
+                        }
+                        
+                        .card p:hover {
+                            background-color: rgb(0, 81, 255);
+                            color: black;
+                        }
+                        
+                        .menu-icon,
+                        .blee,
+                        .home {
+                            display: none;
+                        }
+                        /*RESPONSIVE*/
+                        
+                        @media screen and (max-width:1206px) {
+                            html {
+                                font-size: 75%;
+                            }
+                            .blee,
+                            .home {
+                                display: block;
+                                margin: auto;
+                                font-size: 6rem;
+                                color: white;
+                                text-decoration: none;
+                                padding: 1.5rem 0 0 0rem;
+                                text-align: center;
+                            }
+                            .blee:hover,
+                            .home:hover {
+                                color: blue;
+                                text-decoration-color: red;
+                            }
+                            .main-head {
+                                height: 12rem;
+                            }
+                            .menu {
+                                position: fixed;
+                                z-index: 3;
+                                height: 65%;
+                                top: 9rem;
+                                width: 35rem;
+                                background: black;
+                                /*background: rgba(0, 81, 255, 0.979);*/
+                                display: none;
+                            }
+                            .menu ul {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding-right: 10rem;
+                            }
+                            .menu ul li a {
+                                font-size: 2.5rem;
+                                color: white;
+                            }
+                            .menu ul li a:hover {
+                                color: blue;
+                                text-decoration: none;
+                                transition: .3s;
+                            }
+                            .menu-icon {
+                                position: fixed;
+                                display: block;
+                                height: 5rem;
+                                background: white;
+                                z-index: 3;
+                                top: 4rem;
+                                left: 4rem;
+                            }
+                            ul a {
+                                padding: 30px 0 0 72px;
+                            }
+                            #hero {
+                                min-height: 108rem;
+                            }
+                            .text-box {
+                                padding-top: 5rem;
+                                line-height: 3rem;
+                            }
+                            .text-box h1 {
+                                font-size: 25rem;
+                            }
+                            .text-box h2 {
+                                font-size: 5rem;
+                            }
+                            .tex-box span {
+                                font-family: 'Neue Haas Groteske';
+                                font-size: .3rem;
+                            }
+                            .contenedor-video {
+                                display: flex;
+                                max-height: 47rem;
+                                justify-content: center;
+                            }
+                            #videoIntro {
+                                width: 100%;
+                                max-height: 47rem;
+                                filter: brightness(1.3);
+                            }
+                            .elevate .We-elevate {
+                                font-size: 8.5rem;
+                                text-align: center;
+                            }
+                            .banner-artist h2 {
+                                text-align: center;
+                                padding-top: 30rem;
+                            }
+                            @media screen and (max-width:768px) {
+                                html {
+                                    font-size: 70%;
+                                }
+                                .main-head {
+                                    height: 11rem;
+                                }
+                                .menu {
+                                    position: fixed;
+                                    z-index: 3;
+                                    height: 45%;
+                                    top: 9rem;
+                                    width: 45rem;
+                                    background: black;
+                                    /*background: rgba(0, 81, 255, 0.979);*/
+                                    display: none;
+                                }
+                                .menu ul {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    padding: 0 13rem 7rem 0;
+                                }
+                                .menu ul li a {
+                                    font-size: 3rem;
+                                    color: white;
+                                    padding-right: 4rem;
+                                }
+                                ul a {
+                                    padding: 27px 0 0 55px;
+                                }
+                                .menu-icon {
+                                    position: fixed;
+                                    display: block;
+                                    height: 5rem;
+                                    background: white;
+                                    z-index: 3;
+                                    top: 5rem;
+                                }
+                                .text-box {
+                                    line-height: 2rem;
+                                }
+                                .text-box h1 {
+                                    font-size: 18rem;
+                                }
+                                .text-box h2 {
+                                    font-size: 4.5rem;
+                                }
+                                #videoIntro {
+                                    width: 100%;
+                                    max-height: 40rem;
+                                }
+                                .contenedor-video {
+                                    width: 100%;
+                                    justify-content: center;
+                                }
+                                .banner-artist {
+                                    height: 50rem;
+                                }
+                                .banner-artist h2 {
+                                    text-align: center;
+                                    padding-top: 30rem;
+                                }
+                                .elevate .We-elevate {
+                                    height: 43rem;
+                                    font-size: 9rem;
+                                    text-align: center;
+                                }
+                                .raise .raise-yoursound {
+                                    height: 25rem;
+                                    text-align: center;
+                                }
+                                .main-container .card:hover {
+                                    height: 40rem;
+                                }
+                            }
+                            @media screen and (max-width:414px) {
+                                html {
+                                    font-size: 40%;
+                                }
+                                #hero {
+                                    height: 30rem;
+                                }
+                                .contenedor-video {
+                                    width: 100%;
+                                }
+                                #videoIntro {
+                                    width: 100%;
+                                }
+                                .blee,
+                                .home {
+                                    display: block;
+                                    text-decoration: none;
+                                }
+                                .artist-name {
+                                    font-size: 5rem;
+                                }
+                                .menu {
+                                    position: fixed;
+                                    z-index: 3;
+                                    height: 45%;
+                                    top: 8rem;
+                                    width: 45rem;
+                                    background: black;
+                                    /*background: rgba(0, 81, 255, 0.979);*/
+                                    display: none;
+                                }
+                                .menu ul {
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    padding: 0 13rem 7rem 0;
+                                }
+                                .menu ul li a {
+                                    font-size: 3rem;
+                                    color: white;
+                                    padding-right: 4rem;
+                                }
+                                ul a {
+                                    padding: 32px 0 0 82px;
+                                }
+                                .menu-icon {
+                                    position: fixed;
+                                    display: block;
+                                    height: 5rem;
+                                    background: white;
+                                    z-index: 3;
+                                    top: 4rem;
+                                }
+                                .elevate .We-elevate {
+                                    height: 43rem;
+                                    font-size: 6rem;
+                                    line-height: 9.7rem;
+                                    text-align: center;
+                                }
+                                .raise-yoursound {
+                                    height: 30rem;
+                                    line-height: 10rem;
+                                    text-align: center;
+                                }
+                                .banner-artist h2 {
+                                    padding-top: 22rem;
+                                }
+                            }
+                            @media screen and (max-width:375px) {
+                                html {
+                                    font-size: 30%;
+                                }
+                                #hero {
+                                    height: 30rem;
+                                }
+                                .contenedor-video {
+                                    width: 100%;
+                                }
+                                #videoIntro {
+                                    width: 100%;
+                                }
+                                .elevate .We-elevate {
+                                    height: 43rem;
+                                    font-size: 7rem;
+                                    line-height: 11rem;
+                                }
+                                .raise .raise-yoursound {
+                                    height: 28rem;
+                                    line-height: 10rem;
+                                    text-align: center;
+                                }
+                                .artist-name {
+                                    font-size: 5rem;
+                                }
+                                .banner-artist h2 {
+                                    padding-top: 18rem;
+                                }
+                            }
+                            @media screen and (max-width:320px) {
+                                #hero {
+                                    height: 30rem;
+                                }
+                                .contenedor-video {
+                                    width: 100%;
+                                    padding-top: 5rem;
+                                }
+                                #videoIntro {
+                                    width: 100%;
+                                }
+                                .elevate .We-elevate {
+                                    font-size: 6rem;
+                                    line-height: 9.7rem;
+                                    text-align: center;
+                                }
+                                .raise .raise-yoursound {
+                                    height: 28rem;
+                                    line-height: 10rem;
+                                    text-align: center;
+                                }
+                                .banner-artist h2 {
+                                    padding-top: 23rem;
+                                }
+                            }
+                        }
+                        
+                        @media screen and (min-width:240px) {
+                            html {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            #hero {
+                                height: 20rem;
+                            }
+                            .text-box h1 {
+                                font-size: 13rem;
+                                margin: 0;
+                                line-height: 10rem;
+                                padding-top: 5rem;
+                            }
+                            .text-box h2 span {
+                                font-size: 4rem;
+                                margin: 0;
+                                text-align: center;
+                            }
+                            .elevate .We-elevate {
+                                font-size: 5.5rem;
+                                line-height: 9.7rem;
+                                text-align: center;
+                            }
+                            .raise .raise-yoursound {
+                                font-size: 5.5rem;
+                                height: 20rem;
+                                line-height: 10rem;
+                                text-align: center;
+                            }
+                            .banner-artist h2 {
+                                padding-top: 23rem;
+                            }
+                            .ourServi {
+                                font-size: 7rem;
+                            }
+                        }
