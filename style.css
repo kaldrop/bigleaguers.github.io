@@ -162,9 +162,8 @@
                                                                                                             font-family: 'Akira Expanded';
                                                                                                             font-size: 8rem;
                                                                                                             color: white;
-                                                                                                            text-align: start;
+                                                                                                            text-align: center;
                                                                                                             line-height: 20rem;
-                                                                                                            padding-left: 3rem;
                                                                                                         }
 
                                                                                                         /*.artistas h1:hover {
@@ -175,7 +174,7 @@
 }*/
 
                                                                                                         .banner-artist {
-                                                                                                            height: 68vh;
+                                                                                                            height: 50rem;
                                                                                                             background: linear-gradient(to right bottom, rgba(0, 81, 255, 0.432), rgba(255, 12, 12, 0.514)), url(./resources/img/artistas4.jpg);
                                                                                                             background-position: center;
                                                                                                             position: relative;
@@ -198,7 +197,7 @@
                                                                                                             font-family: 'Akira Expanded';
                                                                                                             font-size: 5.7rem;
                                                                                                             text-align: center;
-                                                                                                            padding-top: 33rem;
+                                                                                                            padding-top: 21rem;
                                                                                                         }
 
                                                                                                         .meet-artist:hover {
@@ -609,6 +608,7 @@
                                                                                                             font-size: 8rem;
                                                                                                             color: white;
                                                                                                             line-height: 10rem;
+                                                                                                            text-align: center;
                                                                                                             padding-top: 7rem;
                                                                                                             padding-left: 3rem;
                                                                                                         }
@@ -1099,7 +1099,7 @@
                                                                                                             }
                                                                                                             .elevate .We-elevate {
                                                                                                                 height: 43rem;
-                                                                                                                font-size: 7rem;
+                                                                                                                font-size: 6rem;
                                                                                                                 text-align: center;
                                                                                                             }
                                                                                                             .ourServi {
@@ -1156,10 +1156,12 @@
 
                                                                                                         @media screen and (max-width:414px) {
                                                                                                             .text-box h1 {
-                                                                                                                font-size: 16rem;
+                                                                                                                font-size: 14rem;
+                                                                                                                letter-spacing: .7rem;
+                                                                                                                line-height: 10rem;
                                                                                                             }
                                                                                                             #hero {
-                                                                                                                height: 30rem;
+                                                                                                                height: 90rem;
                                                                                                             }
                                                                                                             .contenedor-video {
                                                                                                                 width: 100%;
@@ -1170,17 +1172,15 @@
                                                                                                             .blee, .home {
                                                                                                                 display: block;
                                                                                                                 text-decoration: none;
+                                                                                                                padding: 1.5rem 3.1rem 0 0rem;
                                                                                                             }
                                                                                                             .artist-name {
                                                                                                                 font-size: 4rem;
                                                                                                             }
-                                                                                                            /*.safa-diallo {
-                                                                                        letter-spacing: 3rem;
-                                                                                    }*/
                                                                                                             .menu {
                                                                                                                 position: fixed;
                                                                                                                 z-index: 3;
-                                                                                                                height: 50%;
+                                                                                                                height: 90%;
                                                                                                                 top: 8rem;
                                                                                                                 width: 45rem;
                                                                                                                 background: black;
@@ -1194,7 +1194,7 @@
                                                                                                                 padding: 0 13rem 7rem 0;
                                                                                                             }
                                                                                                             .menu ul li a {
-                                                                                                                font-size: 2rem;
+                                                                                                                font-size: 2.5rem;
                                                                                                                 color: blue;
                                                                                                                 padding-right: 6rem;
                                                                                                             }
@@ -1210,15 +1210,15 @@
                                                                                                                 top: 4rem;
                                                                                                             }
                                                                                                             .elevate .We-elevate {
-                                                                                                                height: 43rem;
-                                                                                                                font-size: 6.9rem;
-                                                                                                                line-height: 9.7rem;
+                                                                                                                height: 40rem;
+                                                                                                                font-size: 4.9rem;
+                                                                                                                line-height: 7.7rem;
                                                                                                                 text-align: center;
                                                                                                             }
                                                                                                             .raise .raise-yoursound {
-                                                                                                                height: 30rem;
-                                                                                                                font-size: 8rem;
-                                                                                                                line-height: 10rem;
+                                                                                                                height: 29rem;
+                                                                                                                font-size: 7rem;
+                                                                                                                line-height: 9rem;
                                                                                                                 text-align: center;
                                                                                                             }
                                                                                                             .artistas h1, .ourServi {
@@ -1227,33 +1227,51 @@
                                                                                                                 text-decoration-color: rgb(0, 81, 255);
                                                                                                             }
                                                                                                             .meet-artist {
-                                                                                                                padding-top: 22rem;
+                                                                                                                padding-top: 14rem;
                                                                                                             }
                                                                                                             .ble, .with-us {
                                                                                                                 font-size: 5.5rem;
                                                                                                                 padding: 15rem 2rem 9rem 2rem;
                                                                                                             }
+                                                                                                            .contenedor-servicios {
+                                                                                                                font-size: 2rem;
+                                                                                                            }
+                                                                                                            .LearnMore h3 {
+                                                                                                                font-size: 2.7rem;
+                                                                                                            }
                                                                                                         }
 
                                                                                                         @media screen and (max-width:375px) {
+                                                                                                            .menu {
+                                                                                                                height: 95%;
+                                                                                                            }
+                                                                                                            .blee, .home {
+                                                                                                                padding: 1.5rem 2.6rem 0 0rem;
+                                                                                                            }
+                                                                                                            .text-box h1 {
+                                                                                                                font-size: 10rem;
+                                                                                                                letter-spacing: 1rem;
+                                                                                                                line-height: 3rem;
+                                                                                                            }
                                                                                                             .text-box h2 {
-                                                                                                                font-size: 5rem;
-                                                                                                                line-height: 8rem;
-                                                                                                                padding-top: 4rem;
+                                                                                                                font-size: 2.5rem;
+                                                                                                                line-height: 5rem;
+                                                                                                                padding-top: 3rem;
                                                                                                             }
                                                                                                             #hero {
-                                                                                                                height: 30rem;
+                                                                                                                height: 75rem;
                                                                                                             }
                                                                                                             .contenedor-video {
                                                                                                                 width: 100%;
+                                                                                                                padding-top: 2rem;
                                                                                                             }
                                                                                                             #videoIntro {
                                                                                                                 width: 100%;
                                                                                                             }
                                                                                                             .elevate .We-elevate {
-                                                                                                                height: 43rem;
-                                                                                                                font-size: 7rem;
-                                                                                                                line-height: 11rem;
+                                                                                                                height: 30rem;
+                                                                                                                font-size: 4rem;
+                                                                                                                line-height: 6rem;
                                                                                                             }
                                                                                                             .raise .raise-yoursound {
                                                                                                                 height: 28rem;
@@ -1262,6 +1280,7 @@
                                                                                                             }
                                                                                                             .artistas h1 {
                                                                                                                 color: red;
+                                                                                                                font-size: 5.4rem;
                                                                                                                 text-decoration: underline;
                                                                                                                 text-decoration-color: rgb(0, 81, 255);
                                                                                                             }
@@ -1269,7 +1288,7 @@
                                                                                                                 font-size: 4rem;
                                                                                                             }
                                                                                                             .meet-artist {
-                                                                                                                padding-top: 18rem;
+                                                                                                                padding-top: 10rem;
                                                                                                             }
                                                                                                             .ble, .with-us {
                                                                                                                 font-size: 5rem;
@@ -1278,6 +1297,9 @@
                                                                                                         }
 
                                                                                                         @media screen and (max-width:320px) {
+                                                                                                            html {
+                                                                                                                font-size: 32.5%;
+                                                                                                            }
                                                                                                             .menu {
                                                                                                                 height: 75%;
                                                                                                                 padding-top: 5rem;
@@ -1291,14 +1313,14 @@
                                                                                                             .text-box h1 {
                                                                                                                 font-size: 7rem;
                                                                                                                 text-align: center;
-                                                                                                                padding-top: 0rem;
+                                                                                                                padding-top: 3rem;
                                                                                                             }
                                                                                                             .text-box h2 {
                                                                                                                 font-size: 2.5rem;
                                                                                                                 text-align: center;
                                                                                                                 font-family: 'Akira Expanded';
-                                                                                                                line-height: 5rem;
-                                                                                                                padding-top: 0rem;
+                                                                                                                line-height: 9rem;
+                                                                                                                padding-top: 2rem;
                                                                                                             }
                                                                                                             .contenedor-video {
                                                                                                                 width: 100%;
