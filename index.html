@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robts" content="index, follow" />
     <title>Big Leaguers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
     <link rel="shortcut icon" href="./resources/icons/uno.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Orbitron&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 
     <script src="https://kit.fontawesome.com/8f786911d9.js" crossorigin="anonymous"></script>
@@ -20,18 +21,24 @@
     <aside id="side-nav">
         <div class="side-nav__content">
             <div class="side-nav__content--logo">
-                <a href="#"><img src="./resources/icons/auricular.svg" alt="home"></a>
-                <!-- <h2>B</h2>
+                <a href="https://www.9jaenergy.com/" target="blank"><img src="./resources/img/9nja-energy.png" alt="home"></a>
+                <!-- <h2>9</h2>
+                <h2>J</h2>
+                <h2>A</h2>
+                <h2>B</h2>
                 <h2>L</h2>
                 <h2>E</h2>-->
             </div>
             <ul class="side-nav__content--social">
+                <a href="https://www.facebook.com/bigleaguersentertainment/?ref=page_internal" target="blank"><i
+                        class="fab fa-facebook-f" target="blank"></i></a>
+                <a href="https://www.instagram.com/bigleaguersentertainment/" target="blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/leaguersbig?lang=bg" target="blank"><i class="fab fa-twitter"></i></a>
 
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCSRFw5VC0V_rA3rZiWxrFRA" target="blank"> <i class="fab fa-youtube"></i></a>
                 <a href="#"><i class="fab fa-spotify"></i></a>
-                <a href="#"> <i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+
 
 
 
@@ -133,11 +140,55 @@
                     <h1>Our Services</h1>
                 </a>
             </div>
+            <ul class="collapsible expandable">
+                <li>
+                    <div class="collapsible-header"> Music Production</div>
+                    <div class="collapsible-body"><span>Musicalizing, Beatmaking, jingles, sound design, recording, mix
+                            & mastering </span> <br>
+                        <a class=" learnmore " href=" ./music-production.html ">Learn More</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Audiovisual Production</div>
+                    <div class="collapsible-body"><span>PRE PRODUCTION, FILMING, EDITION, 3D, EFFECTS & MOTION
+                            GRAPHICS</span> <br>
+                        <a class=" learnmore " href=" ./music-production.html ">Learn More</a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"> Events Logistic</div>
+                    <div class="collapsible-body"><span>Production and logistics design, Artistic installations, Retail
+                            Design</span> <br><a class=" learnmore " href=" ./music-production.html ">Learn More</a>
+                    </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Artist Management</div>
+                    <div class="collapsible-body"><span>Scouting, image, enhancement musical proposal, online
+                            marketing</span> <br> <a class=" learnmore " href=" ./music-production.html ">Learn More</a>
+                    </div>
+                    </div>
+                </li>
+                <li>
+
+                </li>
+            </ul>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var elems = document.querySelectorAll('.collapsible');
+                    var instances = M.Collapsible.init(elems, );
+                });
+            </script>
+
+
+
+
         </section>
 
     </main>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 </body>
 
 </html>
