@@ -4,216 +4,492 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robts" content="index, follow" />
-    <title>Big Leaguers</title>
+    <link rel="shortcut icon" href="./images/chiron.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
+    <link rel="stylesheet" href="./styles.css">
 
-    <link rel="shortcut icon" href="./resources/icons/uno.svg" type="image/x-icon">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-
-    <link rel="stylesheet" href="./style.css">
-
-
-    <script src="https://kit.fontawesome.com/8f786911d9.js" crossorigin="anonymous"></script>
-
+    <title>Shop</title>
 </head>
 
 <body>
-    <aside id="side-nav">
-        <div class="side-nav__content">
-            <div class="side-nav__content--logo">
-                <a href="https://www.9jaenergy.com/" target="blank"><img src="./resources/img/9nja-energy.png" alt="home"></a>
-                <!-- <h2>9</h2>
-                <h2>J</h2>
-                <h2>A</h2>
-                <h2>B</h2>
-                <h2>L</h2>
-                <h2>E</h2>-->
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <!-- NAVIGATION -->
+        <div class="navigation">
+            <div class="container">
+                <div class="nav__center">
+                    <div class="nav__header">
+                        <div class="nav__logo">
+                            <h1>SHOPI <span>Q</span></h1>
+                        </div>
+                        <div class="nav__hamburger">
+                            <span>
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-menu"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <h1 class="nav__category">
+                                SHOPI<span>Q</span>
+                            </h1>
+                            <div class="close__toggle">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-cross"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll-link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#featured" class="nav__link scroll-link">Featured</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#blog" class="nav__link scroll-link">Blog</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#newletter" class="nav__link scroll-link">Suscribe</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="" class="nav__link">Login</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="" class="nav__link">Register</a>
+                            </li>
+                        </ul>
+                        <ul class="nav__icons">
+                            <a href="#" class="icon__item">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-search"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="icon__item">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-user"></use>
+                                </svg>
+                            </a>
+                            <a href="#" class="icon__item">
+                                <svg>
+                                    <use xlink:href="./images/sprite.svg#icon-shopping-basket"></use>
+                                </svg>
+                                <span>0</span>
+                            </a>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <ul class="side-nav__content--social">
-                <a href="https://www.facebook.com/bigleaguersentertainment/?ref=page_internal" target="blank"><i
-                        class="fab fa-facebook-f" target="blank"></i></a>
-                <a href="https://www.instagram.com/bigleaguersentertainment/" target="blank"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/leaguersbig?lang=bg" target="blank"><i class="fab fa-twitter"></i></a>
-
-                <a href="https://www.youtube.com/channel/UCSRFw5VC0V_rA3rZiWxrFRA" target="blank"> <i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-spotify"></i></a>
-
-
-
-
-
-
-
-            </ul>
         </div>
-    </aside>
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero__content container">
+                <h1>
+                    <span>Get <span class="color">50%</span>off your first shopping with</span>
+                    <span>SHOPI<span class="color">Q</span>online shop</span>
+                </h1>
+                <a href="" class="btn btn-hero">shop now</a>
+            </div>
+            <a href="#new__arrival" class="goto__next scroll-link">
+                <span>
+                    <svg>
+                        <use xlink:href="./images/sprite.svg#icon-angle-down"></use>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </header>
+    <!-- Main -->
     <main>
-        <!-- **********************MAIN NAV*********************** -->
-        <header id="header">
-            <nav id="header__main-nav">
-                <div class="header__main-nav--hamburger">
-                    <div class="line line-1"></div>
-                    <div class="line line-2"></div>
-                    <div class="line line-3"></div>
+        <!-- New Arrival -->
+        <section class="section new__arrival" id="new_arrival">
+            <div class="arrivals container">
+                <div class="title">
+                    <h1 class="primary__title">New Arrival</h1>
                 </div>
-                <ul class="header__main-nav--links">
-                    <li><a href="#">ARTISTS</a></li>
-                    <li><a href="#">SERVICES</a></li>
-                    <li><a href="#">MEDIA</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
-        <!-- ********************** Hero Section *********************** -->
-        <section id="showcase">
-            <div class="showcase__content">
-                <h1 class="showcase__content--tittle">BLE</h1>
-                <h2 class="showcase__content--para">BIG LEAGUERS ENTERTAINMENT</h2>
-                <div class="contenedor-video">
-                    <video id="videoIntro" autoplay muted loop>
-                        <source src="./resources/video/intro.mp4" type="video/mp4">
-                    </video>
+                <div class="arrival__center">
+                    <div class="product">
+                        <div class="img__container">
+                            <img src="./images/pic1.png" alt="">
+                        </div>
+                        <div class="product__bottom">
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h3>Polar Skate Co Devil T Shirt</h3>
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img__container">
+                            <img src="./images/pic2.png" alt="">
+                        </div>
+                        <div class="product__bottom">
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h3>Polar Skate Co Devil T Shirt</h3>
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img__container">
+                            <img src="./images/pic3.png" alt="">
+                        </div>
+                        <div class="product__bottom">
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h3>Polar Skate Co Devil T Shirt</h3>
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="img__container">
+                            <img src="./images/pic4.png" alt="">
+                        </div>
+                        <div class="product__bottom">
+                            <div class="rating">
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                    </svg>
+                                </span>
+                                <span>
+                                    <svg>
+                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                            <h3>Polar Skate Co Devil T Shirt</h3>
+                            <a href="#">Add to Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <!--  ********************** Artists Section ***********************-->
-        <section id="artists">
-            <div class="artists__banner--elevate">
-                <h1 class="elevate">WE ELEVATE YOUR POWER TO CONECT</h1>
-            </div>
-            <div class="artists__link">
-                <a href="">
-                    <h1>Meet Our Artists</h1>
-                </a>
-            </div>
-            <!--  ********************** Artists Carousel ***********************-->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./resources/img/artistas-8-carrousel/1.jpg">
-                    </div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/2.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/3.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/4.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/5.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/6.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/7.jpg"></div>
-                    <div class="swiper-slide"><img src="./resources/img/artistas-8-carrousel/8.jpg"></div>
+        <!-- Cart Slide -->
+        <section class="cart__slide">
+            <div class="arrival__slide container">
+                <div class="glide" id="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
 
+                            <li class="glide__slide">
+                                <div class="arrival">
+                                    <div class="cart__like">
+                                        <div class="image__holder">
+                                            <img src="./images/pic7.png" alt="">
+                                        </div>
+                                        <div class="cart__details">
+                                            <h1>Polar Skate Co Devil T Shirt</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cumque, facere excepturi dolores eaque ad voluptas atque obcaecati voluptatem reiciendis.
+                                            </p>
+                                            <div class="rating">
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="colors">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="btn__group">
+                                                <button>Add To Cart</button>
+                                                <button>$75</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
 
-
-
-                </div>
-                <div class=" swiper-pagination "></div>
-            </div>
-
-            <script src=" https://unpkg.com/swiper/swiper-bundle.min.js "></script>
-            <script>
-                var swiper = new Swiper('.swiper-container', {
-                    effect: 'coverflow',
-                    grabCursor: true,
-                    centeredSlides: true,
-                    slidesPerView: 'auto',
-                    coverflowEffect: {
-                        rotate: 20,
-                        stretch: 0,
-                        depth: 200,
-                        modifier: 1,
-                        slideShadows: true,
-                    },
-                    loop: true,
-                });
-            </script>
-
-
+                            <li class="glide__slide">
+                                <div class="arrival">
+                                    <div class="cart__like">
+                                        <div class="image__holder">
+                                            <img src="./images/pic8.png" alt="">
+                                        </div>
+                                        <div class="cart__details">
+                                            <h1>Polar Skate Co Devil T Shirt</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cumque, facere excepturi dolores eaque ad voluptas atque obcaecati voluptatem reiciendis.
+                                            </p>
+                                            <div class="rating">
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="colors">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="btn__group">
+                                                <button>Add To Cart</button>
+                                                <button>$75</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="arrival">
+                                    <div class="cart__like">
+                                        <div class="image__holder">
+                                            <img src="./images/pic9.png" alt="">
+                                        </div>
+                                        <div class="cart__details">
+                                            <h1>Polar Skate Co Devil T Shirt</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cumque, facere excepturi dolores eaque ad voluptas atque obcaecati voluptatem reiciendis.
+                                            </p>
+                                            <div class="rating">
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="colors">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="btn__group">
+                                                <button>Add To Cart</button>
+                                                <button>$75</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="arrival">
+                                    <div class="cart__like">
+                                        <div class="image__holder">
+                                            <img src="./images/pic3.png" alt="">
+                                        </div>
+                                        <div class="cart__details">
+                                            <h1>Polar Skate Co Devil T Shirt</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cumque, facere excepturi dolores eaque ad voluptas atque obcaecati voluptatem reiciendis.
+                                            </p>
+                                            <div class="rating">
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-full"></use>
+                                                    </svg>
+                                                </span>
+                                                <span>
+                                                    <svg>
+                                                        <use xlink:href="./images/sprite.svg#icon-star-empty"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="colors">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                            <div class="btn__group">
+                                                <button>Add To Cart</button>
+                                                <button>$75</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+                        </ul>
+                        </div>
+                        </div>
+                        </div>
         </section>
-        <!--  ********************** Services  ***********************-->
-        <section id="services">
-            <div class="services__banner--raise">
-                <h1 class="raise">RAISE YOUR SOUND</h1>
-            </div>
-            <div class="services__link">
-                <a href="">
-                    <h1>Our Services</h1>
-                </a>
-            </div>
-
-            <div class="container-services">
-
-                <div class="service music--1">
-                    <a href="#" class="link-service">
-                        <p class="main-service music">Music Production</p>
-                    </a>
-                </div>
-
-                <div class="service events--2">
-                    <a href="" class="link-service">
-                        <p class="main-service events">Events Logistics</p>
-                    </a>
-                </div>
-                <div class="service audiovisual--3">
-                    <a href="" class="link-service">
-                        <p class="main-service audiovisual">Audiovisual Production</p>
-                    </a>
-                </div>
-                <div class="service artist--4">
-                    <a href="" class="link-service">
-                        <p class="main-service artist-manage">Artist Management</p>
-                    </a>
-                </div>
-            </div>
-            <!-- <ul class="collapsible expandable">
-                <li>
-                    <div class="collapsible-header"> Music Production</div>
-                    <div class="collapsible-body"><span>Musicalizing, Beatmaking, jingles, sound design, recording, mix
-                            & mastering </span> <br>
-                        <a class=" learnmore " href=" ./music-production.html ">Learn More</a></div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Audiovisual Production</div>
-                    <div class="collapsible-body"><span>PRE PRODUCTION, FILMING, EDITION, 3D, EFFECTS & MOTION
-                            GRAPHICS</span> <br>
-                        <a class=" learnmore " href=" ./music-production.html ">Learn More</a></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header"> Events Logistic</div>
-                    <div class="collapsible-body"><span>Production and logistics design, Artistic installations, Retail
-                            Design</span> <br><a class=" learnmore " href=" ./music-production.html ">Learn More</a>
-                    </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Artist Management</div>
-                    <div class="collapsible-body"><span>Scouting, image, enhancement musical proposal, online
-                            marketing</span> <br> <a class=" learnmore " href=" ./music-production.html ">Learn More</a>
-                    </div>
-                    </div>
-                </li>
-                <li>
-
-                </li>
-            </ul>
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    var elems = document.querySelectorAll('.collapsible');
-                    var instances = M.Collapsible.init(elems, );
-                });
-            </script> -->
-
-
-
-
-        </section>
-
     </main>
 
-    <script src="app.js"></script>
 
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Custom Script -->
+    <script src="./js/slider.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
