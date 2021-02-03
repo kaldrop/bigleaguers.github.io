@@ -306,6 +306,8 @@ div.showcase__content__wrapper--main {
     grid-template-rows: repeat(9, minmax(30rem, min-content));
     /*grid-template-rows: repeat(9, 1fr);*/
     grid-gap: 1.5rem;
+    position: relative;
+    top: 15rem;
 }
 
 div.showcase__content__wrapper {
