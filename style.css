@@ -59,8 +59,12 @@ body {
     color: black;
     background-color: white;
     background-color: #1b198e;
-    background-color: #00022f;
     background-color: #86024b;
+    background-color: #00022f;
+    background-color: #a6ff17;
+    background-color: #d8ff00;
+    background-color: #ffc800;
+    background-color: coral;
 }
 
 
@@ -185,7 +189,8 @@ body {
 
 .instagram {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+    background: white;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
 }
 
@@ -264,8 +269,9 @@ body {
     .nav__menu .nav__list {
         background-color: black;
         background-color: #00022f;
-        background-color: #1b198e;
         background-color: #86024b;
+        background-color: #1b198e;
+        background-color: coral;
         justify-content: start;
         flex-direction: column;
         width: 30rem;
