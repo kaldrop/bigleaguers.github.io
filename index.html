@@ -4,98 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raul Kalesnik</title>
+    <link rel="icon" href="./img/man-meditating.svg" type="image/gif" sizes="16x16">
 
-    <title>Raúl Kalesnik</title>
-    <link rel="icon" href="./img/mystical-2.svg" type="image/gif" sizes="16x16">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Bungee&family=Concert+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+
 
     <script src="https://kit.fontawesome.com/8f786911d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <aside id="side-nav">
-        <div class="side-nav__content">
-            <div class="side-nav__content--poetopie-text">
-                <p class="poetopie">Raul <br> Kalesnik</p>
+    <!-- HEADER -->
+    <header class="header" id="header">
 
-            </div>
-            <!--  <div class="side-nav__content--logo">
-                <img src="./img/origami.svg" alt=""> </div>
-            
-                    <p class="poetopie">l</p>
-                    <p class="poetopie">l</p>
-                    <p class="poetopie">o</p> -->
+        <!-- NAVIGATION -->
+        <div class="navigation fix__nav">
+            <div class="container">
+                <div class="nav__center">
+                    <div class="nav__header">
+                        <div class="nav__logo">
+                            <h1>Raul Kalesnik<span></span></h1>
+                        </div>
+                        <div class="nav__hamburger">
+                            <span>
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-menu"></use>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <h1 class="nav__category">
+                                Raul Kalesnik<span></span>
+                            </h1>
+                            <div class="close__toggle">
+                                <svg>
+                                    <use xlink:href="./img/sprite.svg#icon-cross"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll-link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#featured" class="nav__link scroll-link">Work</a>
+                            </li>
 
-            <header id="header">
-                <nav id="header__main-nav">
-                    <div class="header__main-nav--hamburger">
-                        <div class="line line-1"></div>
-                        <div class="line line-2"></div>
-                        <div class="line line-3"></div>
-
-                        <ul class="header__main-nav--links">
-                            <li><a href="#">Home</a></li>
-
-                            <li><a href="#">Works</a></li>
-                            <!-- <li><a href="#">Stories</a></li> -->
+                            <li class="nav__item">
+                                <a href="#" class="nav__link scroll-link">About</a>
+                            </li>
 
 
 
-                            <li><a href="#">About</a></li>
-
-                            <li><a href="#">Contact</a></li>
                         </ul>
+                        <ul class="nav__icons">
 
-                </nav>
+                            <a href="https://www.instagram.com/r_kalesnik/" target="blank" class="icon__item instagram">
+                                <img src="./img/instagram.svg" alt="">
 
-            </header>
+                            </a>
+                        </ul>
+                    </div>
 
-            <ul class="side-nav__content--social">
-                <!-- <a href="#"><i class="fab fa-facebook-f"></i></a> -->
-
-                <a href="https://www.instagram.com/r_kalesnik/?hl=es"><i class="fab fa-instagram"></i></a>
-
-
-                <!-- <a href="#"><i class="fab fa-pinterest-p"></i></a> -->
-            </ul>
-
-            </div>
-
-        </div>
-
-
-    </aside>
-    <main>
-        <!-- **********************MAIN NAV*********************** 
-        <header id="header">
-            <nav id="header__main-nav">
-                <div class="header__main-nav--hamburger">
-                    <div class="line line-1"></div>
-                    <div class="line line-2"></div>
-                    <div class="line line-3"></div>
                 </div>
-                <ul class="header__main-nav--links">
-                    <li><a href="#">Home</a></li>
-
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Stories</a></li>
-
-
-                    <li><a href="#">Poetopie</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>-->
-        <!-- ********************** Hero Section *********************** -->
-
-
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- ********************** Home *********************** -->
         <div class="showcase__content__wrapper--main">
             <div class="showcase__content__wrapper wrap grid--1">
                 <a href=""></a>
@@ -114,9 +94,11 @@
             <div class="showcase__content__wrapper wrap grid--13"></div>
         </div>
 
-
     </main>
-    <script src="app.js"></script>
+
+    <!-- Custom Script -->
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>
