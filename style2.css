@@ -65,6 +65,23 @@ body {
     background-color: #d8ff00;
     background-color: #ffc800;
     background-color: coral;
+    background-color: #50ffff;
+}
+
+main {
+    position: relative;
+    top: 15rem;
+}
+
+.works a h1 {
+    font-size: 5vw;
+    line-height: 1.5;
+    padding-left: 5rem;
+    color: black;
+}
+
+.works a h1:hover {
+    filter: opacity(30%);
 }
 
 
@@ -272,6 +289,7 @@ body {
         background-color: #86024b;
         background-color: #1b198e;
         background-color: coral;
+        background-color: #50ffff;
         justify-content: start;
         flex-direction: column;
         width: 30rem;
@@ -291,18 +309,26 @@ body {
     }
 }
 
-main {
+@media only screen and (max-width: 280px) {
+    .works a h1 {
+        font-size: 6vw;
+        line-height: 2.8;
+        padding-left: 4rem;
+    }
+}
+
+.cursor {
     position: relative;
-    top: 15rem;
+    width: 100px;
+    height: 100px;
 }
 
-.works a h1 {
-    font-size: 5vw;
-    line-height: 1.5;
-    padding-left: 5rem;
-    color: black;
-}
-
-.works a h1:hover {
-    filter: opacity(30%);
+.cursor .circle {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(#00d0ff, #ff005e);
+    border-radius: 50%;
 }
