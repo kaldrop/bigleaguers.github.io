@@ -70,18 +70,7 @@ body {
 
 main {
     position: relative;
-    top: 5rem;
-}
-
-.works a h1 {
-    font-size: 5vw;
-    line-height: 1.5;
-    padding-left: 5rem;
-    color: black;
-}
-
-.works a h1:hover {
-    filter: opacity(30%);
+    top: 15rem;
 }
 
 
@@ -183,12 +172,6 @@ main {
     filter: opacity(40%);
 }
 
-
-/* .nav__menu .nav__item:last-child .nav__link {
-    padding: .8rem 3rem;
-    /* border-radius: 10rem;
-            transition: all 300ms ease-in-out; }*/
-
 .nav__icons {
     display: flex;
     align-items: flex-start;
@@ -214,17 +197,6 @@ main {
 .instagram img {
     position: relative;
     top: .4rem;
-}
-
-
-/* *************** 1024px ************++ */
-
-.works a h1 {
-    font-size: 6vw;
-    line-height: 2.5;
-    padding-left: 15rem;
-    top: 10rem;
-    position: relative;
 }
 
 
@@ -310,10 +282,6 @@ main {
     .nav__menu .nav__list .nav__item {
         width: 100%;
     }
-    .fix__nav .nav__item .nav__link:link,
-    .fix__nav .nav__item .nav__link:visited {
-        color: black;
-    }
     .instagram {
         position: relative;
         top: 3rem;
@@ -322,36 +290,4 @@ main {
     .nav__list .nav__item .nav__link:last-child:hover {
         filter: opacity(40%);
     }
-    .works a h1 {
-        font-size: 6vw;
-        line-height: 2.8;
-        padding-left: 4rem;
-    }
 }
-
-@media only screen and (max-width: 280px) {
-    .works a h1 {
-        font-size: 6vw;
-        line-height: 3;
-        padding-left: 5rem;
-        position: relative;
-        top: 5rem;
-    }
-}
-
-
-/* .cursor {
-    position: relative;
-    width: 100px;
-    height: 100px;
-}
-
-.cursor .circle {
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 50%;
-    height: 50%;
-    background: linear-gradient(#00d0ff, #ff005e);
-    border-radius: 50%;
-} */
