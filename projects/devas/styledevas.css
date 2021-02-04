@@ -282,6 +282,10 @@ main {
     .nav__menu .nav__list .nav__item {
         width: 100%;
     }
+    .fix__nav .nav__item .nav__link:link,
+    .fix__nav .nav__item .nav__link:visited {
+        color: black;
+    }
     .instagram {
         position: relative;
         top: 3rem;

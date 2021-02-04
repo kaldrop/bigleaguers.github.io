@@ -74,10 +74,12 @@ main {
 }
 
 .works a h1 {
-    font-size: 5vw;
-    line-height: 1.5;
-    padding-left: 5rem;
+    position: relative;
     color: black;
+    font-size: 4.8vw;
+    line-height: 1.5;
+    padding-left: 19rem;
+    top: 8rem;
 }
 
 .works a h1:hover {
@@ -219,12 +221,14 @@ main {
 
 /* *************** 1024px ************++ */
 
-.works a h1 {
-    font-size: 6vw;
-    line-height: 2.5;
-    padding-left: 15rem;
-    top: 10rem;
-    position: relative;
+@media only screen and (max-width: 1024px) {
+    .works a h1 {
+        font-size: 6vw;
+        line-height: 2.5;
+        padding-left: 15rem;
+        top: 15rem;
+        position: relative;
+    }
 }
 
 
@@ -335,7 +339,7 @@ main {
         line-height: 3;
         padding-left: 5rem;
         position: relative;
-        top: 5rem;
+        top: 3rem;
     }
 }
 
